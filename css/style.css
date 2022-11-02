@@ -1,3 +1,31 @@
 nav {
-    div
+    margin: auto;
+    display: block;
+    position: fixed;
+    
 }
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav a {  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#welcome-section {
+    height: 100vh;
+    padding-top: 100px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #welcome-section {
+        background-color: blue;
+    }
+}
+
