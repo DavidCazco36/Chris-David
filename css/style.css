@@ -2,6 +2,9 @@
     margin:0
   
 }
+body{
+    background-color:rgb(179, 180, 187);
+}
 
 nav {
     margin: auto;
@@ -43,7 +46,8 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:0px;
+    padding-top:300px;
+
 
 }
 #profile-link{
